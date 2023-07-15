@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.appyurakkasalliklari.controller.Controller">
+   <children>
+      <TabPane prefHeight="900.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tab1" onSelectionChanged="#tab1Selected" style="-fx-pref-width: 600;" text="Ma'lumotlarni kiritish oynasi">
+            <content>
+              <AnchorPane fx:id="tab1_anchorPane" cache="true" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutY="350.0" prefHeight="518.0" prefWidth="600.0">
+                          <panes>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Ko'krak og'rig'i">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="atr2Kuzatilgan" layoutX="222.0" layoutY="24.0" mnemonicParsing="false" onAction="#atr2Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr2" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr2Kuzatilmagan" layoutX="221.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr2Clicked" text="Kuzatilmagan" toggleGroup="$atr2" />
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Puls soni">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="atr3Ortgan" layoutX="235.0" layoutY="21.0" mnemonicParsing="false" onAction="#atr3Clicked" text="Ortgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr3" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr3Kamaygan" layoutX="235.0" layoutY="55.0" mnemonicParsing="false" onAction="#atr3Clicked" text="Kamaygan" toggleGroup="$atr3" />
+                                       </children></AnchorPane>
+                                </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Arterial bosim">
+                                 <content>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="atr4Kotarilgan" layoutX="247.0" layoutY="25.0" mnemonicParsing="false" onAction="#atr4Clicked" text="Ko'tarilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr4" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr4Kotarilmagan" layoutX="247.0" layoutY="55.0" mnemonicParsing="false" onAction="#atr4Clicked" text="Pastlagan" toggleGroup="$atr4" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content></TitledPane>
+                            <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Og’riqning birdaniga paydo bo’lishi">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr5Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr5Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr5" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr5Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr5Clicked" text="Kuzatilmagan" toggleGroup="$atr5" />
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Og’riq davomiyligi">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="atr6Qisqa" layoutX="247.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr6Clicked" text="Qisqa">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr6" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr6Uzoq" layoutX="247.0" layoutY="55.0" mnemonicParsing="false" onAction="#atr6Clicked" text="Uzoq" toggleGroup="$atr6" />
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Og’riq sohasi">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="atr7ChapYelka" layoutX="182.0" layoutY="28.0" mnemonicParsing="false" onAction="#atr7Clicked" text="Chap yelka">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr7" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr7ChapQol" layoutX="182.0" layoutY="68.0" mnemonicParsing="false" onAction="#atr7Clicked" text="Chap qo'l" toggleGroup="$atr7" />
+                                          <RadioButton fx:id="atr7OngYelka" layoutX="369.0" layoutY="28.0" mnemonicParsing="false" onAction="#atr7Clicked" text="O'ng yelka" toggleGroup="$atr7" />
+                                          <RadioButton fx:id="atr7ChapKurak" layoutX="369.0" layoutY="68.0" mnemonicParsing="false" onAction="#atr7Clicked" text="Chap kurak" toggleGroup="$atr7" />
+                                       </children></AnchorPane>
+                              </content>
+                            </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="O’lim vahimasi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr8Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr8Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr8" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr8Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr8Clicked" text="Kuzatilmagan" toggleGroup="$atr8" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yurak o’ynashi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr9Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr9Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr9" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr9Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr9Clicked" text="Kuzatilmagan" toggleGroup="$atr9" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Bosh aylanishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr10Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr10Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr10" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr10Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr10Clicked" text="Kuzatilmagan" toggleGroup="$atr10" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Hansirash">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr11Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr11Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr11" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr11Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr11Clicked" text="Kuzatilmagan" toggleGroup="$atr11" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Sirkulatsiya qon hajmi ortishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr12Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr12Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr12" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr12Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr12Clicked" text="Kuzatilmagan" toggleGroup="$atr12" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Nafas tezlashuvi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr13Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr13Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr13" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr13Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr13Clicked" text="Kuzatilmagan" toggleGroup="$atr13" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Entikish">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr14Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr14Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr14" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr14Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr13Clicked" text="Kuzatilmagan" toggleGroup="$atr14" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Bo’g’ilish">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr15Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr15Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr15" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr15Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr15Clicked" text="Kuzatilmagan" toggleGroup="$atr15" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Pushti balg’am ajratuvchi yo’tal">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr16Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr16Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr16" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr16Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr16Clicked" text="Kuzatilmagan" toggleGroup="$atr16" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yotsa zo’rayib ketuvchi hansirash">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr17Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr17Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr17" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr17Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr17Clicked" text="Kuzatilmagan" toggleGroup="$atr17" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                          </panes>
+                        </Accordion>
+                        <AnchorPane layoutX="1.0" layoutY="-1.0" prefHeight="351.0" prefWidth="1200.0" style="-fx-background-color: #cdcdcd;">
+                           <children>
+                              <ImageView fitHeight="351.0" fitWidth="1200.0" opacity="0.07">
+                                 <image>
+<!--                                    <Image url="@image/img_1.png" />-->
+                                 </image>
+                              </ImageView>
+                           </children></AnchorPane>
+                        <Accordion layoutX="601.0" layoutY="350.0" prefHeight="518.0" prefWidth="600.0">
+                           <panes>
+                              <TitledPane alignment="CENTER" animated="false" text="Majburiy taxikardiya">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr18Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr18Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr18" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr18Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr18Clicked" text="Kuzatilmagan" toggleGroup="$atr18" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Pushti rangli ko’piksimon yo’tal">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr19Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr19Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr19" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr19Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr19Clicked" text="Kuzatilmagan" toggleGroup="$atr19" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Darmonsizlik">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr20Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr20Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr20" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr20Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr20Clicked" text="Kuzatilmagan" toggleGroup="$atr20" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Jismonan yaxshi rivojlanmaslik">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr21Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr21Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr21" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr21Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr21Clicked" text="Kuzatilmagan" toggleGroup="$atr21" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Ko’karib ketish">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr22Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr22Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr22" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr22Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr22Clicked" text="Kuzatilmagan" toggleGroup="$atr22" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Nafas siqishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr23Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr23Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr23" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr23Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr23Clicked" text="Kuzatilmagan" toggleGroup="$atr23" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yurak hajmi va holatining o’zgarishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr24Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr24Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr24" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr24Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr24Clicked" text="Kuzatilmagan" toggleGroup="$atr24" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yurakda shovqin eshitilishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr25Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr25Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr25" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr25Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr25Clicked" text="Kuzatilmagan" toggleGroup="$atr25" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yurakda nuhushlik">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr26Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr26Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr26" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr26Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr26Clicked" text="Kuzatilmagan" toggleGroup="$atr26" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Ko’ngil aynishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr27Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr27Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr27" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr27Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr27Clicked" text="Kuzatilmagan" toggleGroup="$atr27" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Oyoq shishishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr28Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr28Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr28" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr28Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr28Clicked" text="Kuzatilmagan" toggleGroup="$atr28" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Lab ko’karishi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr29Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr29Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr29" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr29Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr29Clicked" text="Kuzatilmagan" toggleGroup="$atr29" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Jismoniy mashqlar paytida yoki damolish paytida nafas olish qiyiligi">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr30Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr30Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr30" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr30Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr30Clicked" text="Kuzatilmagan" toggleGroup="$atr30" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Yengil kuch sarflaganda terlash">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr31Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr31Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr31" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr31Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr31Clicked" text="Kuzatilmagan" toggleGroup="$atr31" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" text="Tekis yotolmaslik">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0">
+                                       <children>
+                                          <RadioButton fx:id="atr32Kuzatilgan" layoutX="236.0" layoutY="26.0" mnemonicParsing="false" onAction="#atr32Clicked" text="Kuzatilgan">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="atr32" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="atr32Kuzatilmagan" layoutX="236.0" layoutY="63.0" mnemonicParsing="false" onAction="#atr32Clicked" text="Kuzatilmagan" toggleGroup="$atr32" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" disable="true" text="Bemor">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="233.0" prefWidth="598.0" />
+                                 </content>
+                              </TitledPane>
+                              <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" disable="true" text="Kasallik">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                 </content>
+                              </TitledPane>
+                           </panes>
+                        </Accordion>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tab2" onSelectionChanged="#tab2Selected" style="-fx-pref-width: 600;" text="Natijalarni ko'rsatish oynasi">
+            <content>
+              <AnchorPane fx:id="tab2_anchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;">
+                     <children>
+                        <AnchorPane layoutX="50.0" layoutY="14.0" prefHeight="250.0" prefWidth="1100.0" style="-fx-background-color: #9000FF; -fx-background-radius: 50;">
+                           <children>
+                              <Label layoutX="486.0" layoutY="14.0" prefHeight="16.0" prefWidth="128.0" style="-fx-text-fill: white;" text="Bemordagi belgilar" />
+                              <Label fx:id="belgilar" alignment="TOP_LEFT" layoutX="30.0" layoutY="44.0" prefHeight="81.0" prefWidth="1041.0" style="-fx-text-fill: white;" text="Belgilar :" wrapText="true" />
+                              <Label layoutX="521.0" layoutY="131.0" prefHeight="16.0" prefWidth="62.0" style="-fx-text-fill: white;" text="Tashxis" />
+                              <Label fx:id="tashhis" alignment="TOP_LEFT" layoutX="31.0" layoutY="154.0" prefHeight="81.0" prefWidth="1041.0" style="-fx-text-fill: white;" text="Tashhis" wrapText="true" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="57.0" layoutY="295.0" prefHeight="250.0" prefWidth="1100.0" style="-fx-background-color: #FF8400; -fx-background-radius: 50;">
+                           <children>
+                              <Label layoutX="463.0" layoutY="14.0" prefHeight="16.0" prefWidth="174.0" style="-fx-text-fill: white;" text="Kasallik haqida ma'lumot" />
+                              <Label fx:id="info" alignment="TOP_LEFT" layoutX="30.0" layoutY="46.0" prefHeight="179.0" prefWidth="1041.0" style="-fx-text-fill: white;" text="Info" wrapText="true" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="65.0" layoutY="569.0" prefHeight="250.0" prefWidth="1100.0" style="-fx-background-color: #FF00A5; -fx-background-radius: 50;">
+                           <children>
+                              <Label layoutX="462.0" layoutY="14.0" prefHeight="16.0" prefWidth="123.0" style="-fx-text-fill: white;" text="Yordam ko'rsatish" />
+                              <Label fx:id="help" alignment="TOP_LEFT" layoutX="30.0" layoutY="43.0" prefHeight="179.0" prefWidth="1041.0" style="-fx-text-fill: white;" text="Help" wrapText="true" />
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="507.0" layoutY="839.0" prefHeight="18.0" prefWidth="207.0" style="-fx-text-fill: white;" text="Created by Javlon Ergashev">
+                           <font>
+                              <Font name="Tlwg Typist" size="13.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

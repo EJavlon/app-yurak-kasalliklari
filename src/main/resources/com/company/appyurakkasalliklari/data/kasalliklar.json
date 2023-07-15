@@ -1,0 +1,56 @@
+[
+  {
+    "name": "stenokardiya",
+    "about": "Stenokardiya - ko'krak sanchig'i yoki og'rigi deb ataladi.\n\nStenokardiyaning asosiy belgisi - og'riq hurujlar ko'rinishida bo'lishi.Og'riq huruji o'zining aniq boshlanishi va tugash vaqtiga egae boladi.\n\n\nBelgilari : Holsizlik, og'riqning o'ng yelka sohasida bo'lishi, terining oqarib gezarishi, puls tezlashadi, artelial bosim biroz ko'tariladi, og'riq davomiyli 10-15 daqiqa davom etadi.\n\nAgar og'riq davomiyli 15 daqiqadan uzoq davom etsa miokard infarktga bo'lishi mumkin",
+    "help": "Nitroglitsirin tabletkasi til ostiga so'riladi, odatda og'riq 2-3 daqiqada o'tib ketadi.\nStenokardiya xurujining oldini olish maqsadida jismoniy harakat qilmaslik (mas, tez yurmaslik, balandlikka koʻtarilmaslik, hayajonlantiruvchi manzaralarga qaramaslik va boshqalar),\" +\n            \" asablarni toliqtirmaslik lozim, butunlay yotib olmaslik ham kerak; oz-ozdan jismoniy mehnat qilish, ogʻriq boʻlmasa, koʻproq shugʻullanish mumkin.\nDavo fizkulturasi bemorning umumiy holatini yaxshilaydi. Ovqatni oz miqdorda, lekin dambadam yeb turish kerak"
+  },
+
+  {
+    "name": "miokard infarkti",
+    "about": "Miokard infarkti - bu yurak toj arteriyalarining tromb bilan berkilib qolishi yoki ularning siqilishi oqibatida, yurakni muskul qavatini qon bilan ta'minlanishini buzilishi natijasida yurak muskul qavatini nekrozga (mahalliy o‘lim) uchrashi. \n\nBu kasallik bilan 45—60 yoshdagi kishilar kasallanadi. Erkaklar ayollarga nisbatan miokard infarktiga ko‘p chalinadilar, 40—50 yoshdagi erkaklar\n\nBelgilari : Og'riq, og'riqning birdaniga paydo bo'lishi, og'riqning chap yelka, chap qolga, chap kurak sohasiga tarqalishi.Og'riqning achishtirivchi, kuydiruvchi, ezuchi harakterda bo'lishi.Og'riq davomiyli 15-20 daqiqadan birnecha soatga cho'zilib, o'lim vahimasi bilan kechadi.",
+    "help": "Nitroglitsirin tabletkasi til ostiga so'riladi, og'riq samarali qoldirish uchun fentonil 0,005 % - 2ml yoki promidol 2% - 1,0 gr muskul orasiga qilinadi.\n\nMiokard infarktining davosi maxsus tez yordam mashinalar brigadasida, shifoxonalarda, poliklinikada, sihatgohlarda o‘tkaziladi.\n\nBemomi kasalxonaga keltirguncha unga tezlik bilan yordam ko‘rsatish zarur. Og‘riq qoldiruvchi, yurak urishi tezligini pasaytiruvchi dorilar qo‘llaniladi.\n\nBemor shifoxonaning reanimatsiya bo'limiga yotqiziladi. O‘rinda qimirlamay yotish, psixik, jismoniy osoyishtalik ta’min etiladi. \nOg‘riqni qoldirish uchun teri ostiga 1 ml 2% li promedol. 1-2 ml 1% li morfin (morfinning qo‘shimcha ta’siriga yo‘l qo‘ymaslik uchun \n\n0,5 ml 0,1% li atropin sulfat) yuborish lozim. Morfinning kuchini oshiruvchi 1 ml 2,4% li pipolfen yoki 1% li dimedrol, suprastin eritmasini 50% li 2 ml analgin bilan yuborish maqsadga muvofiq bo‘ladi"
+  },
+
+  {
+    "name":"paroksizmal taxikardiya",
+    "about":"Paroksizmal taxikardiya  - yurak qisqarishlar sonini birdaniga 160 dan ortib ketishiga aytiladi.\n\n\nBelgilari : Yurak o'ynashi , bosh aylanishi, hansirash, yurak sohadiga nohushlik boladi, yurak qisqarishlar soni 140 -200 martga yetadi.",
+    "help":"Bemor tinch holatda yotqizish lozim, tinchlantiruvchi dorilar qilinishi lozim.\n\nSpirtli ichimliklar, chekish va og'ir ortiqcha ishlashdan butunlay voz kechish kasallikning prognoziga ijobiy ta'sir qiladi.\n\nUshbu kasallik bilan 10-sonli jadval tavsiya etiladi. Oziq-ovqatning kaloriya miqdorini kamaytirish, iste'mol qilinadigan tuz va suyuqlik miqdorini cheklash.\n\nAsab va yurak-qon tomir tizimlariga ogohlantiruvchi ta'sir ko'rsatadigan moddalar kontrendikedir. Kaliy va magniyni ko'proq iste'mol qilish, shuningdek, gidroksidi ovqatlar tavsiya etiladi."
+  },
+  {
+    "name":"yurak astmasi",
+    "about":"Yurak astmasi - sirkulatsiya bo'layotgan qon hajmini kopayib ketishi,\narterial qon bosimining ko'tarilishi, yurak qisqaruvchanligini keskin pasayishi natijasida yurak nasos funksiyasini keskin susayib ketishi bilan harakterlanadi.\n\n\nBelgilari : Bemorda oyoqlarini pastga osiltirib o'tiradi, hansirash, nafas tezlashuvi, entikish, bog'ilish,  pushti balg'am ajrovchi yo'tal.",
+    "help":"Bemorni oyoqlarini pastga osiltirga holda o'tqizish,derazalarni ochib toza havodan nafas oldirish, oyoqlariga issiq vanna qilish, namlangan kislarod berish, til ostiga nitroglitsirin berish, laziks 2,0 ml  muskul orasiga, morfin 1 % - 1ml vena ichiga qilinadi."
+  },
+
+  {
+    "name":"o'pka shishuvi",
+    "about":"O'pka shishuvi - o'tkir o'pka shishuvi o'tkir yurak chap qorincha yetishmovchili oqibatida kelib chiqadi.\n\n\nBelgilari : Bog'ilish, bemor yotsa zo'rayib ketuvchi hansirash, majburiy taxikardiya, pushti rangli ko'piksimon yo'tal ",
+    "help":"Bemorni qulay joylashtrish, qisib turgan kiyimlarni yechish, namlangan kislarod berish, morfin 1 % - 1ml vena ichiga, laziks 2,0 ml  muskul orasiga."
+  },
+  {
+    "name":"yurak parogi",
+    "about":"Yurak parogi - Tug’ma yurak porogining sababi genetik (irsiy) yoki ekologik (atrof-muhit) omil bo’lishi mumkin, lekin odatda, ikkalasining kombinatsiyasi \n\n\nBelgilari : Bolaning jismonan tuzuk rivojlanmasligi, rangparlik yoki koʻkarib ketish, nafas siqishi, yurak hajmi va holatining oʻzgarishi, yurakda shovqin eshitilishi va boshqalar tugʻma yurak poroklariga xos belgilardir. ",
+    "help":"Yurak parogini davolash asosan jarrohlik va terapevtik  davolash turlariga bo’linishi mumkin."
+  },
+  {
+    "name":"ventrikulyar fibrilatsiya",
+    "about":"Ventrikulyar fibrilatsiya - anormal yurak ritmining bir turi (aritmiya).\n\n\nQorincha fibrilatsiyasi vaqtida tartibsiz yurak impulslari yurakning pastki kameralarini(qorinchalar) samarasiz qisqarishiga sabab bo'ladi. Natijada, yurak qonni tanaga yetkazib bera olmasligi.\n\n\nBelgilari :  Ko'krak og'rig'i,juda tez yurak urishi (taxikardiya), bosh aylanishi,ko'ngil aynishi,nafas qisilishi",
+    "help":"Yurak ritmini nazorat qilish uchun dorilar (antiaritmik) qorincha fibrilatsiyasini shoshilinch yoki uzoq muddatli davolash uchun ishlatiladi.\n\n\nAgar qorincha fibrilatsiyasi yoki to'satdan koronar o'lim xavfi mavjud bo'lsa,yurak urishini sekinlashtirish va nazorat qilish uchun dori-darmonlarni buyurishi mumkin. "
+  },
+  {
+    "name":"postinfarktli kardioskleroz",
+    "about":"Postinfarktli kardioskleroz - Yurak mushagining nekrotik tolalari biriktiruvchi to’qima bilan almashtirilganda, miokard infarkti natijasida rivojlanadi.\n\n\nShu bilan birga, to’qima qisqarish qobiliyatiga ega emas, bu esa surunkali yurak yetishmovchiligiga olib keladi.\n\n\nBelgilari : Yurakning tez, notekis yoki kam urishi, hansirash, oyoq shishishi, lab koʻkarishi, behollik va b. kuzatiladi",
+    "help":"Bemorni to’liq ruxiy va jismoniy tinchlik bilan taminlash hamda qat’iy to’shak rejimi."
+  },
+  {
+    "name":"yurak ritmining buzulishi",
+    "about":"Yurak ritmining buzulishi - Qon tomirlari torayishi va to’lqinli ravishda qon o’tishi tufayli paydo bo’ladi.\n\n\nBu holat stenokardiya rivojlanishini va hatto miokard infarktini rivojini ko’rsatadigan ishemik yurak kasalligining bir shakli.\n\n\nBelgilari : Puls soni ortishi, bosh aylanishi, qon bosimi ortishi, hansirash ",
+    "help":"Xuruj vaqtida bemor tinch yotishi lozim.I va II darajal atrioventrikulyar blokadalar qilish."
+  },
+  {
+    "name":"yurak yetishmovchiligi",
+    "about":"Yurak yetishmovchiligi - dekompensatsiyalangan moikard disfunksiyasi natijasida kelib chiqadigan sindrom.\n\n\nBu hujayralararo suyuqlik hajmining oshishi, organlar va to'qimalarning perfuziyasining pasayishi bilan namoyon bo'ladi.\n\n\nBelgilari : Kasallikning har bir turi turli xil alomatlarga ega va alomatlar intensivligi bilan farq qilishi mumkin. Biroq, yurak yetishmovchiligining asosiy alomati jismoniy mashqlar paytida yoki dam olish paytida nafas olish qiyinligidir. Ogohlantirish belgilariga: yengil kuch sarflanganda terlash, tekis yotish mumkin emasligi, ko’krakda siqilish yoki oyoqlar shishishi kiradi.",
+    "help":"O'tkir yurak yetishmovchiligi qon aylanishini (gemodinamikani) barqarorlashtirish uchun favqulodda choralarni talab qiladi. Qon aylanishining buzilishiga sabab bo'lgan sababga qarab, qon bosimini oshirish (barqarorlashtirish), yurak ritmini normallashtirish va og'riqni yo'qotish (yurak xurujlari bo'lsa) choralari ko'riladi.\n\n\nKeyingi strategiya yetishmovchilikni keltirib chiqaradigan kasallikni davolashni o'z ichiga oladi."
+  }
+
+]

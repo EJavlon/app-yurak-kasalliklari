@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "kuzatilgan"
+  },
+  {
+    "id": 2,
+    "name": "kuzatilmagan"
+  },
+  {
+    "id": 3,
+    "name": "ko'tarilgan"
+  },
+  {
+    "id": 4,
+    "name": "pastlagan"
+  },
+  {
+    "id": 5,
+    "name": "ortgan"
+  },
+  {
+    "id": 6,
+    "name": "kamaygan"
+  },
+  {
+    "id": 7,
+    "name": "qisqa"
+  },
+  {
+    "id": 8,
+    "name": "uzoq"
+  },
+  {
+    "id": 9,
+    "name": "chap yelka"
+  },
+  {
+    "id": 10,
+    "name": "o'ng yelka"
+  },
+  {
+    "id": 11,
+    "name": "chap qo'l"
+  },
+  {
+    "id": 12,
+    "name": "chap kurak"
+  },
+  {
+    "id": 13,
+    "name": "stenokardiya"
+  },
+  {
+    "id": 14,
+    "name": "miokard infarkt"
+  },
+  {
+    "id": 15,
+    "name": "paroksizmal taxikardiya"
+  },
+  {
+    "id": 16,
+    "name": "yurak astmasi"
+  },
+  {
+    "id": 17,
+    "name": "o'pka shishuvi"
+  },
+  {
+    "id": 18,
+    "name": "yurak parogi"
+  },
+  {
+    "id": 19,
+    "name": "ventrikulyar fibrilatsiya"
+  },
+  {
+    "id": 20,
+    "name": "postinfarktli kardioskleroz"
+  },
+  {
+    "id": 21,
+    "name": "yurak ritmining buzulishi"
+  },
+  {
+    "id": 22,
+    "name": "yurak yetishmovchiligi"
+  }
+]

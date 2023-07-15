@@ -1,0 +1,385 @@
+[
+  {
+    "id":1,
+    "mulohazalar":
+    [
+      {
+        "atribut": "darmonsizlik",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "og'riq sohasi",
+        "qiymat": "o'ng yelka"
+      },
+      {
+        "atribut": "puls soni",
+        "qiymat": "ortgan"
+      },
+      {
+        "atribut": "arterial bosim",
+        "qiymat": "ko'tarilgan"
+      },
+      {
+        "atribut": "og'riq davomiyligi",
+        "qiymat": "qisqa"
+      }
+    ],
+    "xulosa": "stenokardiya",
+    "xulosaQiymat" : null,
+    "zanjir" :false
+  },
+
+  {
+    "id":2,
+    "mulohazalar":
+    [
+      {
+        "atribut": "og'riqning birdaniga paydo bo'lishi",
+        "qiymat":"kuzatilgan"
+      },
+      {
+        "atribut": "og'riq sohasi",
+        "qiymat":"chap yelka"
+      },
+      {
+        "atribut": "o'lim vahimasi",
+        "qiymat":"kuzatilgan"
+      },
+      {
+        "atribut": "og'riq davomiyligi",
+        "qiymat":"uzoq"
+      }
+    ],
+    "xulosa": "miokard infarkti",
+    "xulosaQiymat" : null,
+    "zanjir": false
+  },
+
+  {
+    "id":3,
+    "mulohazalar":
+    [
+      {
+        "atribut": "og'riqning birdaniga paydo bo'lishi",
+        "qiymat":"kuzatilgan"
+      },
+      {
+        "atribut": "og'riq sohasi",
+        "qiymat":"chap qo'l"
+      },
+      {
+        "atribut": "o'lim vahimasi",
+        "qiymat":"kuzatilgan"
+      },
+      {
+        "atribut": "og'riq davomiyligi",
+        "qiymat":"uzoq"
+      }
+    ],
+    "xulosa": "miokard infarkti",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":4,
+    "mulohazalar":
+    [
+      {
+        "atribut": "og'riqning birdaniga paydo bo'lishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "og'riq sohasi",
+        "qiymat": "chap kurak"
+      },
+      {
+        "atribut": "o'lim vahimasi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "og'riq davomiyligi",
+        "qiymat": "uzoq"
+      }
+    ],
+    "xulosa": "miokard infarkti",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":5,
+    "mulohazalar":
+    [
+      {
+        "atribut": "yurak o'ynashi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "hansirash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "puls soni",
+        "qiymat": "ortgan"
+      },
+      {
+        "atribut": "yurakda nohushlik",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "paroksizmal taxikardiya",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":6,
+    "mulohazalar":
+    [
+      {
+        "atribut": "nafas tezlashuvi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "hansirash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "entikish",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "bo'g'ilish",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "pushti balg'am ajratuvchi yo'tal",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "yurak astmasi",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+  {
+    "id":7,
+    "mulohazalar":
+    [
+      {
+        "atribut": "bo'g'ilish",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "sirkulatsiya qon hajmi ortishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "yotsa zo'rayib ketuvchi hansirash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "majburiy taxikardiya",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "pushti rangli ko'piksimon yo'tal",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "o'pka shishuvi",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":8,
+    "mulohazalar":
+    [
+      {
+        "atribut": "ko'karib ketish",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "nafas siqishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "yurakda shovqin eshitilishi",
+        "qiymat": "kuzatilgan"
+      }
+
+    ],
+    "xulosa": "jismonan yaxshi rivojlanmaslik",
+    "xulosaQiymat" : "kuzatilgan",
+    "zanjir" : true
+  },
+
+  {
+    "id":9,
+    "mulohazalar":
+    [
+      {
+        "atribut": "jismonan yaxshi rivojlanmaslik",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "yurak hajmi va holatining o'zgarishi",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "yurak parogi",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":10,
+    "mulohazalar":
+    [
+      {
+        "atribut": "ko'krak og'rig'i",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "puls soni",
+        "qiymat": "ortgan"
+      },
+      {
+        "atribut": "bosh aylanishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "ko'ngil aynishi",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "nafas siqishi",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "ventrikulyar fibrilatsiya",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+
+  {
+    "id":11,
+    "mulohazalar":
+    [
+      {
+        "atribut": "puls soni",
+        "qiymat": "ortgan"
+      },
+      {
+        "atribut": "hansirash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "oyoq shishishi",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "lab ko'karishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "darmonsizlik",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "postinfarktli kardioskleroz",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":12,
+    "mulohazalar":
+    [
+      {
+        "atribut": "puls soni",
+        "qiymat": "kamaygan"
+      },
+      {
+        "atribut": "hansirash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "oyoq shishishi",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "lab ko'karishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "darmonsizlik",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "postinfarktli kardioskleroz",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":13,
+    "mulohazalar":
+    [
+      {
+        "atribut": "puls soni",
+        "qiymat": "ortgan"
+      },
+      {
+        "atribut": "bosh aylanishi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "arterial bosim",
+        "qiymat": "ko'tarilgan"
+      },
+
+      {
+        "atribut": "hansirash",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "yurak ritmining buzulishi",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  },
+
+  {
+    "id":14,
+    "mulohazalar":
+    [
+      {
+        "atribut": "jismoniy mashqlar paytida yoki dam olish paytida nafas olish qiyinligi",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "yengil kuch sarflaganda terlash",
+        "qiymat": "kuzatilgan"
+      },
+      {
+        "atribut": "tekis yotolmaslik",
+        "qiymat": "kuzatilgan"
+      },
+
+      {
+        "atribut": "oyoq shishishi",
+        "qiymat": "kuzatilgan"
+      }
+    ],
+    "xulosa": "yurak yetishmovchiligi",
+    "xulosaQiymat" : null,
+    "zanjir" : false
+  }
+]

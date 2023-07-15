@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "ko'krak sanchig'i"
+  },
+  {
+    "id": 2,
+    "name": "ko'krak og'rig'i"
+  },
+  {
+    "id": 3,
+    "name": "puls soni"
+  },
+  {
+    "id": 4,
+    "name": "arterial bosim"
+  },
+  {
+    "id": 5,
+    "name": "og'riqning birdaniga paydo bo'lishi"
+  },
+  {
+    "id": 6,
+    "name": "og'riq davomiyligi"
+  },
+  {
+    "id": 7,
+    "name": "og'riq sohasi"
+  },
+  {
+    "id": 8,
+    "name": "o'lim vahimasi"
+  },
+  {
+    "id": 9,
+    "name": "yurak o'ynashi"
+  },
+  {
+    "id": 10,
+    "name": "bosh aylanishi"
+  },
+  {
+    "id": 11,
+    "name": "hansirash"
+  },
+  {
+    "id": 12,
+    "name": "sirkulatsiya qon hajmi ortishi"
+  },
+  {
+    "id": 13,
+    "name": "nafas tezlashuvi"
+  },
+  {
+    "id": 14,
+    "name": "entikish"
+  },
+  {
+    "id": 15,
+    "name": "bo'g'ilish"
+  },
+  {
+    "id": 16,
+    "name": "pushti balg'am ajratuvchi yo'tal"
+  },
+  {
+    "id": 17,
+    "name": "yotsa zo'rayib ketuvchi hansirash"
+  },
+  {
+    "id": 18,
+    "name": "majburiy taxikardiya"
+  },
+  {
+    "id": 19,
+    "name": "pushti rangli ko'piksimon yo'tal"
+  },
+  {
+    "id": 20,
+    "name": "darmonsizlik"
+  },
+  {
+    "id": 21,
+    "name": "jismonan yaxshi rivojlanmaslik"
+  },
+  {
+    "id": 22,
+    "name": "ko'karib ketish"
+  },
+  {
+    "id": 23,
+    "name": "nafas siqishi"
+  },
+  {
+    "id": 24,
+    "name": "yurak hajmi va holatining o'zgarishi"
+  },
+  {
+    "id": 25,
+    "name": "yurakda shovqin eshitilishi"
+  },
+  {
+    "id": 26,
+    "name": "yurakda nuhushlik"
+  },
+  {
+    "id": 27,
+    "name": "ko'ngil aynishi"
+  },
+  {
+    "id": 28,
+    "name": "oyoq shishishi"
+  },
+  {
+    "id": 29,
+    "name": "lab ko'karishi"
+  },
+  {
+    "id": 30,
+    "name": "jismoniy mashqlar paytida yoki dam olish paytida nafas olish qiyiligi"
+  },
+  {
+    "id": 31,
+    "name": "yengil kuch sarflaganda terlash"
+  },
+  {
+    "id": 32,
+    "name": "tekis yotolmaslik"
+  },
+  {
+    "id": 33,
+    "name": "bemor"
+  }
+]

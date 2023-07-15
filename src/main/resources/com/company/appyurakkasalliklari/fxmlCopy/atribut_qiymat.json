@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "atribut": "ko'krak sanchig'i",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 2,
+    "atribut": "ko'krak og'rig'i",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 3,
+    "atribut": "puls soni",
+    "qiymat": ["ortgan","kamaygan"]
+  },
+  {
+    "id": 4,
+    "atribut": "arterial bosim",
+    "qiymat": ["ko'tarilgan","pastlagan"]
+  },
+  {
+    "id": 5,
+    "atribut": "og'riqning birdaniga paydo bo'lishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 6,
+    "atribut": "og'riq davomiyligi",
+    "qiymat": ["qisqa","uzoq"]
+  },
+  {
+    "id": 7,
+    "atribut": "og'riq sohasi",
+    "qiymat": ["chap yelka","o'ng yelka","chap qo'l"]
+  },
+  {
+    "id": 8,
+    "atribut": "o'lim vahimasi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 9,
+    "atribut": "yurak o'ynashi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 10,
+    "atribut": "bosh aylanishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 11,
+    "atribut": "hansirash",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 12,
+    "atribut": "sirkulatsiya qon hajmi ortishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 13,
+    "atribut": "nafas tezlashuvi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 14,
+    "atribut": "entikish",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 15,
+    "atribut": "bo'g'ilish",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 16,
+    "atribut": "pushti balg'am ajratuvchi yo'tal",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 17,
+    "atribut": "yotsa zo'rayib ketuvchi hansirash",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 18,
+    "atribut": "majburiy taxikardiya",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 19,
+    "atribut": "pushti rangli ko'piksimon yo'tal",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 20,
+    "atribut": "darmonsizlik",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 21,
+    "atribut": "jismonan yaxshi rivojlanmaslik",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 22,
+    "atribut": "ko'karib ketish",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 23,
+    "atribut": "nafas siqishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 24,
+    "atribut": "yurak hajmi va holatining o'zgarishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 25,
+    "atribut": "yurakda shovqin eshitilishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 26,
+    "atribut": "yurakda nuhushlik",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 27,
+    "atribut": "ko'ngil aynishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 28,
+    "atribut": "oyoq shishishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 29,
+    "atribut": "lab ko'karishi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 30,
+    "atribut": "jismoniy mashqlar paytida yoki dam olish paytida nafas olish qiyinligi",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 31,
+    "atribut": "yengil kuch sarflaganda terlash",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 32,
+    "atribut": "tekis yotolmaslik",
+    "qiymat": ["kuzatilgan","kuzatilmagan"]
+  },
+  {
+    "id": 33,
+    "atribut": "kasallik",
+    "qiymat": ["stenokardiya","miokard infarkt","paroksizmal taxikardiya","yurak astmasi","o’pka shishuvi","yurak parogi","ventrikulyar fibrilatsiya","postinfarktli kardioskleroz","yurak ritmining buzulishi","yurak yetishmovchiligi"]
+  }
+]
